@@ -2,30 +2,28 @@
 @import '~normalize.css/normalize.css';
 @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
 
-@import url(https://fonts.googleapis.com/css?family=Roboto:100);
-
-body { margin-top: 100px; background-color: #137b85; color: red; text-align:center; }
-
-h1 {
-  font: 2em 'Roboto', sans-serif;
-  margin-bottom: 40px;
-}
-
-#loading {
+.lds-dual-ring {
   display: inline-block;
-  width: 50px;
-  height: 50px;
-  border: 3px solid rgba(255,255,255,.3);
+  width: 64px;
+  height: 64px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 46px;
+  height: 46px;
+  margin: 1px;
   border-radius: 50%;
-  border-top-color: #fff;
-  animation: spin 1s ease-in-out infinite;
-  -webkit-animation: spin 1s ease-in-out infinite;
+  border: 5px solid #ff5f1c;
+  border-color: #ff8d0a transparent #f375ff transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
 }
-
-@keyframes spin {
-  to { -webkit-transform: rotate(360deg); }
-}
-@-webkit-keyframes spin {
-  to { -webkit-transform: rotate(360deg); }
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
