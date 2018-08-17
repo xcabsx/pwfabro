@@ -1,0 +1,77 @@
+{
+  "configVersion": 1,
+  "index": "/PWCat/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/PWCat/index.html",
+        "/PWCat/main.bbf717135a50e3e74a30.js",
+        "/PWCat/polyfills.7a0e6866a34e280f48e7.js",
+        "/PWCat/runtime.a66f828dca56eeb90e02.js",
+        "/PWCat/scripts.bbaab5518869e4925da1.js",
+        "/PWCat/styles.343a9cb479ca61547fff.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/PWCat/assets/d1.jpg",
+        "/PWCat/assets/d10.png",
+        "/PWCat/assets/d2.jpg",
+        "/PWCat/assets/d3.jpg",
+        "/PWCat/assets/d4.png",
+        "/PWCat/assets/d5.png",
+        "/PWCat/assets/d6.jpg",
+        "/PWCat/assets/icon-128x128 .png",
+        "/PWCat/assets/icon-152x152.png",
+        "/PWCat/assets/icon-256x256.png",
+        "/PWCat/assets/icon-512x512.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/PWCat/assets/d1.jpg": "ea6a129ff17e3c3997121a4e940fe72d613b2fc3",
+    "/PWCat/assets/d10.png": "a2a6d90158badf2792816f5b1ab06c417c893b01",
+    "/PWCat/assets/d2.jpg": "5081e6d15e96353c0989d760d4ca03445e352567",
+    "/PWCat/assets/d3.jpg": "dcb95a6b6cf6b87118e5104835f135f5ebe926b5",
+    "/PWCat/assets/d4.png": "bb9fc9a6b3e7682dad6ddf358bd55723c17402fc",
+    "/PWCat/assets/d5.png": "3ab4c27475079b5c8c0561384715f9a83dc05dfe",
+    "/PWCat/assets/d6.jpg": "5c1ce523c50acb732a05a236dd58838917d01f4c",
+    "/PWCat/assets/icon-128x128 .png": "8127bec9d43af3a610422646540ddb904e14fd68",
+    "/PWCat/assets/icon-152x152.png": "6072deefc7d8128c8a2d365c4ed783890f007381",
+    "/PWCat/assets/icon-256x256.png": "40d20752a726642526f660954b9fe8bf8da36fd6",
+    "/PWCat/assets/icon-512x512.png": "9547b49435aa458a682af68bdbb7ff60a5676f01",
+    "/PWCat/index.html": "fee05b3fb4f2f7c8754fcafbe9712dce96791a2e",
+    "/PWCat/main.bbf717135a50e3e74a30.js": "5c70a1e73cc775bed4a33620be37042f23b60480",
+    "/PWCat/polyfills.7a0e6866a34e280f48e7.js": "9f0b8341c0a0caec1581da2f255eb5dbb8e12303",
+    "/PWCat/runtime.a66f828dca56eeb90e02.js": "078e320cc6fdaf355836c3b1c52b059cdd33fc7e",
+    "/PWCat/scripts.bbaab5518869e4925da1.js": "73934d48b95f2b08268d567b3981da5b6e494b1f",
+    "/PWCat/styles.343a9cb479ca61547fff.css": "fba448eb0f3049c67fdfcb740c29deb753bdb5f0"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
